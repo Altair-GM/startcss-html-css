@@ -1,0 +1,236 @@
+.start{
+    
+    background-color:rgb(54, 58, 97);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+body{
+    margin: 0%
+}
+
+ul { 
+    display: flex;
+    
+    
+    
+}
+ul li { 
+    margin-left:20px;
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Bungee', cursive;    
+}
+#a1{
+    display: flex;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-family: 'Bungee', cursive;    
+}
+.start2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:orangered;
+    color: white;  
+}
+.start2 h3{
+     text-align: center;
+     font-family: 'Bungee','cursive';
+     text-transform: uppercase;
+     font-size: 30px;  
+
+ }
+
+ .start2 p{
+    text-align: center;
+    font-family:'cursive';
+    text-transform: capitalize;
+    font-size: 17px;
+
+ }
+
+ div .portofolio{
+     display: flex;
+     background-color: white;
+     
+     height:25%;
+   
+    
+    
+
+ }
+
+ .portofolio img{
+     display: flex;
+    justify-content: space-between;
+     
+    height: 120px;
+    border-radius: 10%;
+    
+
+   
+    
+ }
+ .portofolio{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     /* width:40%; */
+ }
+ .portofolio img{
+     margin: 5px 15px;
+ }
+ 
+.photo h2{
+    text-align: center;
+    margin-top: 10px;
+    text-transform:uppercase;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.about{
+    background-color: orangered;
+    text-decoration-color: white;
+}
+.about h1{
+
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about .about-contenu{
+    display: flex;
+    justify-content: center ;
+    margin: 0% 30%;
+}
+
+section h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,monospace;
+    font-size: 25px;
+
+}
+
+.form{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: 0% 30%;
+    font-family: Bungee, 'cursive',;
+    color:silver;
+    
+}
+.form input{
+    border: none;
+    border-bottom:solid whitesmoke;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  margin: 25px 25px;
+}
+
+button{
+    padding: 15px 20px;
+    border-radius: 20%;
+    border-color: orangered;
+    background-color: red;
+    margin-right: 15%;
+    color: white;
+}
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content:space-around;
+    background-color: rgb(54, 58, 97);
+}
+
+footer h3{
+    color: white;
+    text-transform: uppercase;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,monospace;
+
+
+}
+.ftr1{
+    width: 200px;
+}
+footer p{
+    color: white;
+    font-family:cursive;
+    
+}
+footer span{
+    color:seagreen;
+}
+.ftr3{
+    width: 200px;
+}
+
+.ftr2 i{
+    color: white;
+    padding: 10px;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    border: solid white;
+    border-radius: 50%;
+    
+}
+.CR{
+    background-color:darkslategrey;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (min-width:600px) and (max-width:1024px) {
+
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .start ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+        
+       
+
+
+    }
+    
+}
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .start ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+        
+        
+       
+
+
+    }
+    
+}
